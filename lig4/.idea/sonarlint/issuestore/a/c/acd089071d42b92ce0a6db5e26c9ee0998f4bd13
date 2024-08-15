@@ -1,0 +1,18 @@
+
+k
+java:S5411"(Use a primitive boolean expression here.(²àå¸8¾Ç–¾•2J$27753152-5fc2-4312-98df-556f736856b4
+]
+java:S1220""Move this file to a named package.8¿Ç–¾•2J$d133f940-1b9c-4a47-b6d9-d40e20de7a44
+
+java:S1450"VRemove the "columns" field and declare it as a local variable in the relevant methods.(Àúñ«úÿÿÿÿ8ËÇ–¾•2J$7e815cbc-d1f6-487f-b028-3121d045c8d1
+ 
+java:S1450"XRemove the "gamePiece" field and declare it as a local variable in the relevant methods.(¬–äÿÿÿÿÿ8º´¾•2J$d4fd12c1-fbcf-48e0-a6cc-63f4d82a1422
+–
+java:S1450"SRemove the "name" field and declare it as a local variable in the relevant methods.(Ë¥¼8Şó–¾•2J$6b3c51a9-bc79-4b2b-9d69-4a5f89cc1228
+m	java:S106"+Replace this use of System.out by a logger.(Ñï„•8ÖÇ–¾•2J$646512a2-6784-4038-b416-a7332dc523f2
+r	java:S106"+Replace this use of System.out by a logger.(æåâ¿øÿÿÿÿ8ÖÇ–¾•2J$4ba590bf-2b69-431d-a7df-3c01c5922b04
+r	java:S106"+Replace this use of System.out by a logger.(Õí”ˆøÿÿÿÿ8×Ç–¾•2J$c666298d-31ae-4393-a479-122aeb5969ce
+r	java:S106"+Replace this use of System.out by a logger.(£–¥èûÿÿÿÿ8ØÇ–¾•2J$d9d1daae-b54b-4226-837d-fd42eee67154
+r	java:S106!"+Replace this use of System.out by a logger.(Õí”ˆøÿÿÿÿ8ØÇ–¾•2J$69322e07-d96f-4db9-ab5c-130fd5f92ac9
+m	java:S106*"+Replace this use of System.out by a logger.(º—ıì8˜™—¾•2J$32112e1b-3d33-47ac-8003-d5db1d61fd1a
+r	java:S106-"+Replace this use of System.out by a logger.(×â”³şÿÿÿÿ8¼°œ¾•2J$4e457117-a11f-487c-99c1-4cf40f31f5b2
