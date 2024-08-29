@@ -1,0 +1,47 @@
+
+œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(º‚¯8Åœ£ÿ™2J$a068cd80-2a1b-4f6e-ae17-f6268da337a1
+œ
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8Æœ£ÿ™2J$3f9d7ef0-138f-4ce5-85d3-2e5abc4652cd
+œ
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8Æœ£ÿ™2J$eea3c546-d3fd-4655-8fb7-96944ca8cee1
+œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8Æœ£ÿ™2J$3cb359ba-fbfc-47dd-8a8d-3b1ba52ae8af
+œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8Æœ£ÿ™2J$35cd9046-0606-4e9a-a009-cc90e24b08a6
+œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8Æœ£ÿ™2J$01732dc2-9060-40c9-a50b-fdf7efbef157
+œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8Æœ£ÿ™2J$86d3f84f-3806-44ea-bacb-24caa70a84ab
+Ÿ	java:S127;"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ü’šãøÿÿÿÿ8Çœ£ÿ™2J$35c8a00a-b74d-4cc2-a68c-addcca4b7d0d
+Ÿ	java:S127?"XRefactor the code in order to not assign to this loop counter from within the loop body.(ä¦Áûÿÿÿÿ8Çœ£ÿ™2J$8ecb182c-9c5c-4e23-aebc-16be96416de5
+p
+java:S54119"(Use a primitive boolean expression here.(¿•ïıÿÿÿÿ8Éœ£ÿ™2J$2a54a208-dabe-44d1-b9d6-ef67eceffda1
+k
+java:S5411="(Use a primitive boolean expression here.(éÔ“ƒ8Éœ£ÿ™2J$94bb9cdf-906f-4603-8e70-f21ab36087eb
+p
+java:S5411L"(Use a primitive boolean expression here.(ğ ñıÿÿÿÿ8Éœ£ÿ™2J$38befa80-dd49-4a3b-9c55-9c93af2cb8d4
+]
+java:S1220""Move this file to a named package.8Êœ£ÿ™2J$250290a9-28a4-413e-aebe-d31825646423
+
+java:S3516"9Refactor this method to not always return the same value.(ÆÄøÿÿÿÿ8êœ£ÿ™2J$7e25668f-c94f-47b7-a1a9-b156e2036f65
+u
+java:S2447!"-Null is returned but a "Boolean" is expected.(æ¼Ëçşÿÿÿÿ8ñœ£ÿ™2J$651cc4ab-9707-4d1c-a34f-1dff35727b03
+p
+java:S2447%"-Null is returned but a "Boolean" is expected.(¥¹ï8ñœ£ÿ™2J$a7fbd920-63ac-43b8-a750-59a936f9528d
+p
+java:S2447*"-Null is returned but a "Boolean" is expected.(¥¹ï8ñœ£ÿ™2J$9a3f89f9-4126-4534-a3cf-dbafc989e0c6
+ƒ	java:S125!"<This block of commented-out lines of code should be removed.(æ¼Ëçşÿÿÿÿ8óœ£ÿ™2J$f4619c2a-c336-4e45-abbe-a8e1bdccf671
+‰
+java:S1126C"AReplace this if-then-else statement by a single return statement.(ş™Êüÿÿÿÿ8÷œ£ÿ™2J$a97be888-b68a-493e-b60f-d507b161157b
+r
+java:S1481K"*Remove this unused "count" local variable.(È¬ÇÅùÿÿÿÿ8øœ£ÿ™2J$c945135f-9dcb-482e-8d3f-ec9169461c36
+p
+java:S1481U"-Remove this unused "countWin" local variable.(ÄÂòË8øœ£ÿ™2J$6e9d5d65-51c6-4e69-bee1-e2ae6ade9819
+k	java:S108W")Either remove or fill this block of code.(úÒë‚8ùœ£ÿ™2J$b14721d9-a533-4403-8477-2afd3133fcf6
+r	java:S106e"+Replace this use of System.out by a logger.(à• üıÿÿÿÿ8úœ£ÿ™2J$3c4e7692-5745-4845-b417-a771553f890b
+m	java:S106f"+Replace this use of System.out by a logger.(–àâŠ8ûœ£ÿ™2J$16f7d45a-5f2a-4543-9e5a-16884672aef3
+r	java:S106i"+Replace this use of System.out by a logger.(¾Œ¸ıÿÿÿÿ8ûœ£ÿ™2J$04908144-c99e-4d98-a91e-9e5122bb0f24
+s
+java:S1144T"0Remove this unused private "valideteWin" method.(°Œ“—8üœ£ÿ™2J$52fb0dd0-0376-4be3-9385-98f3c0e1f643

@@ -1,0 +1,18 @@
+
+]
+java:S1220""Move this file to a named package.8ÔÔ¤ş™2J$70811859-1524-4440-b89a-1f354f02adda
+s
+java:S1172"+Remove this unused method parameter "args".(üÎÆıÿÿÿÿ8ùÉªş™2J$6149e050-fafd-42bb-bf62-74c1f4b090e6
+r	java:S106"+Replace this use of System.out by a logger.(ÈÙ¦•úÿÿÿÿ8İÔ¤ş™2J$0b2167b7-d8aa-47be-99fc-b9e665e3020e
+r	java:S106"+Replace this use of System.out by a logger.(ÈÙ¦•úÿÿÿÿ8ŞÔ¤ş™2J$f4d031ee-3951-4274-a9ec-153520cb33e3
+r	java:S106"+Replace this use of System.out by a logger.(ÈÙ¦•úÿÿÿÿ8ŞÔ¤ş™2J$54f7b637-62e5-4826-b3dd-38dab65dac70
+r	java:S106"+Replace this use of System.out by a logger.(ÈÙ¦•úÿÿÿÿ8àÔ¤ş™2J$22f2a157-3672-47e5-a07a-a1730a00dc56
+~
+java:S1854 "6Remove this useless assignment to local variable "p2".(¾Ÿô‹úÿÿÿÿ8âÔ¤ş™2J$2790687f-bb7e-4730-b525-8e5a6c477d0f
+o
+java:S1481 "'Remove this unused "p2" local variable.(¾Ÿô‹úÿÿÿÿ8ãÔ¤ş™2J$44c96f93-d011-4902-98fa-9ea1ae7e08e4
+r	java:S106)"+Replace this use of System.out by a logger.(ìëŸ·üÿÿÿÿ8ˆ’¥ş™2J$61428d3a-501d-411c-98b0-095ba6686137
+u
+java:S11351"2Complete the task associated to this TODO comment.(’ æ8åÔ¤ş™2J$5055681c-9568-408c-a14f-8490b45bac70
+u
+java:S11352"2Complete the task associated to this TODO comment.(Æ¸ÎÏ8åÔ¤ş™2J$1c45dd16-2f91-4a63-9089-49640f244dd3
