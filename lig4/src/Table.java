@@ -21,20 +21,35 @@ public class Table {
     }
   }
 
-
+  public Boolean validaPlay(Integer column){
+    var firstRow = matrix.getFirst();
+    if(column < 0 ){
+      return false;
+    }
+    if(column > firstRow.size() -1 ) {
+      return false;
+    }
+    if(!firstRow.get(column).equals("_")){
+      return Boolean.FALSE;
+    }
+    return true;
+  }
   public Boolean play(Integer column, PlayerEntity player) {
     String piece = player.gamePiece();
-    // precisa colocar uma validação se ainda tem como colocar nessa coluna.
     List<String> beforRow = new ArrayList<>();
+
     var lastRow = matrix.getLast();
+
+
     for (List<String> row : matrix) {
-      if (row == lastRow && row.get(column).equals("_")) {
+
+      if (row == lastRow && row.get(column).equals("_")) { //valida se é a ultima linha e se a coluna esta vazia
         row.set(column, piece);
-        return null; //valideteWin(matrix.indexOf(row), column, piece);
+        return valideteWin(matrix.indexOf(row), column, piece);
       }
       if (!row.get(column).equals("_")) {
         beforRow.set(column, piece);
-        return null;
+        return valideteWin(matrix.indexOf(row), column, piece);
       }
       beforRow = row;
     }
@@ -42,38 +57,79 @@ public class Table {
     return null;
   }
 
-  public Boolean valideteIlegalState(int row, int coluna,String piece){
+  public Boolean valideteIlegalState(int row, int coluna, String piece) {
     try {
       return matrix.get(row).get(coluna).equals(piece);
-    } catch (IndexOutOfBoundsException e){
+    } catch (IndexOutOfBoundsException e) {
       return false;
     }
   }
 
-  // Falta o diagonal win
+  public Boolean validateDiagonalLeftWin(Integer row, Integer column, String piece) {
+    int countWin = 0;
+    for (int left = 1, rigth = 1, up = 1, down = 1, count = 0; count != 3; count++) {
+      if (valideteIlegalState(row - up, column - left, piece)) {
+        countWin++;
+        left++;
+        up++;
+      }
+      if (valideteIlegalState(row + down, column + rigth, piece)) {
+        countWin++;
+        rigth++;
+        down++;
+      }
+    }
+
+    if (countWin >= 3) {
+      return true;
+    }
+    return false;
+  }
+
+  public Boolean validateDiagonalRigthWin(Integer row, Integer column, String piece) {
+    int countWin = 0;
+    for (int left = 1, rigth = 1, up = 1, down = 1, count = 0; count != 3; count++) {
+      if (valideteIlegalState(row + down, column - left, piece)) {
+        countWin++;
+        left++;
+        down++;
+      }
+      if (valideteIlegalState(row - up, column + rigth, piece)) {
+        countWin++;
+        rigth++;
+        up++;
+      }
+    }
+
+    if (countWin >= 3) {
+      return true;
+    }
+    return false;
+  }
+
   public Boolean validateHorizontalWin(Integer row, Integer column, String piece) {
     int countWin = 0;
     for (int left = 1, rigth = 1, count = 0; count != 3; count++) {
-      if (valideteIlegalState(row, column - left, piece)){
+      if (valideteIlegalState(row, column - left, piece)) {
         countWin++;
         left++;
       }
       if (valideteIlegalState(row, column + rigth, piece)) {
         countWin++;
-        rigth ++;
+        rigth++;
       }
     }
 
-    if(countWin >= 3){
+    if (countWin >= 3) {
       return true;
     }
-      return false;
+    return false;
   }
 
   private Boolean validateVerticalWin(Integer row, Integer column, String piece) {
 
-    for (int down = 1, count = 0; down != 3; down++) {
-      if(!valideteIlegalState(row - down, column, piece)){
+    for (int down = 1; down != 4; down++) {
+      if (!valideteIlegalState(row + down, column, piece)) {
         return false;
       }
     }
@@ -82,10 +138,10 @@ public class Table {
   }
 
   private Boolean valideteWin(Integer row, Integer column, String piece) {
-    Integer countWin = 0;
 
-    if (validateHorizontalWin(row, column, piece) || validateVerticalWin(row, column, piece) ) {
-
+    if (validateHorizontalWin(row, column, piece) || validateVerticalWin(row, column, piece) ||
+            validateDiagonalRigthWin(row, column, piece) || validateDiagonalLeftWin(row, column, piece)) {
+      return  true;
     }
     return false;
   }

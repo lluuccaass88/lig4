@@ -19,7 +19,7 @@ public class Jogo {
     int count = 0;
     PlayerEntity player = this.player1;
     while (!winner) {
-
+      System.out.println(this.table);
       winner = round(player);
 
       if (count == 0) {
@@ -30,6 +30,8 @@ public class Jogo {
         count--;
       }
     }
+    System.out.println(this.table);
+    System.out.println("PARABENS AO VENCEDOR");
   }
 
   private void menu() {
@@ -37,26 +39,31 @@ public class Jogo {
 
     System.out.println("Digite o nome do jogador 1: ");
     this.name = scanner.next();
-    System.out.println(this.name + ", escolha a pe�a que voc� deseja jogar: ");
+    System.out.println(this.name + ", escolha a pecaa que voce deseja jogar: ");
     this.gamePiece = scanner.next();
     player1 = new PlayerEntity(name, gamePiece);
 
     System.out.println("Digite o nome do jogador 2: ");
     this.name = scanner.next();
-    System.out.println(this.name + ", escolha a peça que você deseja jogar: ");
+    System.out.println(this.name + ", escolha a peaa que voce deseja jogar: ");
     this.gamePiece = scanner.next();
     player2 = new PlayerEntity(name, gamePiece);
 
   }
 
+  public static void clearScreen() {
+    System.out.print("\033[H\033[2J");
+    System.out.flush();
+  }
+
   public Boolean round(PlayerEntity player) {
+    clearScreen();
+    do {
+      System.out.println(player.getName() + " digite a coluna para jogar: ");
+      this.columns = scanner.nextInt();
+    } while (!table.validaPlay(columns));
 
-    System.out.println("Digite a coluna: ");
-    this.columns = scanner.nextInt();
-
-    table.play(this.columns, player);
-
-    return false;
+    return table.play(this.columns, player);
   }
 
 

@@ -32,13 +32,20 @@ public class TesteTable {
     PlayerEntity p2 = new PlayerEntity("p2", "x") ;
     //teste
     table.play(0, p1);
+
+    System.out.println();
+    table.play(0, p1);
+    table.play(1, p2);
     table.play(1, p1);
+    table.play(2, p2);
+    table.play(2, p2);
     table.play(2, p1);
     table.play(3, p1);
-    table.play(4, p1);
-
-
-    System.out.println(table.validateHorizontalWin(5, 2, "o"));
+    table.play(3, p2);
+    table.play(3, p2);
+    System.out.println(table);
+    var b = table.play(3, p1);
+    System.out.println(b);
 
 
   }

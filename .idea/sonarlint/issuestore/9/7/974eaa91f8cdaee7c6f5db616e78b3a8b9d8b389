@@ -1,17 +1,24 @@
 
 k
-java:S5411"(Use a primitive boolean expression here.(²àå¸8¬åşü™2J$0a379d41-97ed-4256-ba36-2b99ffd050d8
+java:S5411"(Use a primitive boolean expression here.(²àå¸8ôô“À§2J$74af65d2-3f38-408e-a88f-cb4e107a7271
+p
+java:S5411@"(Use a primitive boolean expression here.(±ğ­ùÿÿÿÿ8¥¦À§2J$c6d5b8b6-86b9-4010-8eff-ae624df193fc
 ]
-java:S1220""Move this file to a named package.8­åşü™2J$ae7a002b-404c-47d5-9b9f-bc31f089f1b5
+java:S1220""Move this file to a named package.8õô“À§2J$030812f9-1d85-4cf6-b609-5bca8ad8d58f
 
-java:S1450"VRemove the "columns" field and declare it as a local variable in the relevant methods.(Àúñ«úÿÿÿÿ8´åşü™2J$9d05cf40-6068-4a13-beb5-14da9ecd394a
+java:S1450"VRemove the "columns" field and declare it as a local variable in the relevant methods.(Àúñ«úÿÿÿÿ8şô“À§2J$61eb9a27-f001-4c85-bd59-ee8e9f71dc27
  
-java:S1450"XRemove the "gamePiece" field and declare it as a local variable in the relevant methods.(¬–äÿÿÿÿÿ8µåşü™2J$4102d155-7545-49f9-ad9f-7d821715a781
+java:S1450"XRemove the "gamePiece" field and declare it as a local variable in the relevant methods.(¬–äÿÿÿÿÿ8şô“À§2J$778954e6-06a8-4994-89f3-3810aa42f59f
 –
-java:S1450"SRemove the "name" field and declare it as a local variable in the relevant methods.(Ë¥¼8µåşü™2J$0e022fcf-b258-47df-b853-71bafb4b96d6
-m	java:S106$"+Replace this use of System.out by a logger.(Ñï„•8¾åşü™2J$5ef3fbad-4cff-401c-835c-58429e304bb4
-r	java:S106&"+Replace this use of System.out by a logger.(æåâ¿øÿÿÿÿ8¾åşü™2J$004b9c72-701c-4b46-92b8-3dcdd9e4b0cb
-r	java:S106("+Replace this use of System.out by a logger.(Â‘—¨ùÿÿÿÿ8¿åşü™2J$8a2d224b-4cc3-4aae-abd5-06581383e979
-r	java:S106,"+Replace this use of System.out by a logger.(£–¥èûÿÿÿÿ8Àåşü™2J$f5100a8d-54fa-48eb-9d9b-21cfe6c0133c
-r	java:S106."+Replace this use of System.out by a logger.(Õí”ˆøÿÿÿÿ8Àåşü™2J$83a1d6bf-4f9e-4ba2-b29c-e8f549da8723
-m	java:S1066"+Replace this use of System.out by a logger.(º—ıì8Âåşü™2J$aadd4d37-c016-42e2-9375-2952f3844a7f
+java:S1450"SRemove the "name" field and declare it as a local variable in the relevant methods.(Ë¥¼8şô“À§2J$f0f8eed8-efdb-4980-b76b-e302e6c4f290
+m	java:S106"+Replace this use of System.out by a logger.(Óı¼8ƒõ“À§2J$e8de162f-36fc-4efe-bf03-7cbc7a297602
+m	java:S106!"+Replace this use of System.out by a logger.(Óı¼8„õ“À§2J$27d338f1-a150-41c7-af7f-4d1671086278
+r	java:S106""+Replace this use of System.out by a logger.(¿’ˆûÿÿÿÿ8„õ“À§2J$8fdea202-1968-4ad1-8eee-f7efe6300d68
+m	java:S106&"+Replace this use of System.out by a logger.(Ñï„•8…õ“À§2J$4e37f4d6-17fe-434f-8edd-b62dd9d78749
+r	java:S106("+Replace this use of System.out by a logger.(æåâ¿øÿÿÿÿ8…õ“À§2J$5f75800d-fcba-4393-b317-c3e1300c58e3
+r	java:S106*"+Replace this use of System.out by a logger.(ú›şÓøÿÿÿÿ8…õ“À§2J$4c1facef-5428-4bc7-aea1-48cce9dffaa0
+r	java:S106."+Replace this use of System.out by a logger.(£–¥èûÿÿÿÿ8†õ“À§2J$56693fb8-5272-4fbd-a825-b65ae63860b8
+r	java:S1060"+Replace this use of System.out by a logger.(”â’Ÿıÿÿÿÿ8 É˜À§2J$930b2a99-3383-4e12-b6b7-c0bc78295552
+m	java:S1067"+Replace this use of System.out by a logger.(Îœò—8¡É˜À§2J$2e57cff8-0463-4f7b-9efe-a250bf923d6b
+m	java:S1068"+Replace this use of System.out by a logger.(ÚÂâ8ƒ©ÎÀ§2J$a2b2bc69-9701-4d65-94a2-d044c50f6787
+G	java:S106>"+Replace this use of System.out by a logger.(ûÄéâ8ïäŞÀ§2
