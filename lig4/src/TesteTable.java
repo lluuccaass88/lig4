@@ -1,39 +1,17 @@
 public class TesteTable {
 
-  public static void main2(String[] args){
-    var table = new Table();
-
-    PlayerEntity p1 = new PlayerEntity("p1", "o") ;
-    PlayerEntity p2 = new PlayerEntity("p2", "x") ;
-    //teste
-    table.play(0, p1);
-
-    System.out.println(table);
-
-    table.play(0, p2);
-    System.out.println(table);
-    table.play(0, p1);
-    System.out.println(table);
-    table.play(0, p2);
-    table.play(0, p1);
-    table.play(0, p2);
-    table.play(1, p1);
-    table.play(2, p1);
-    table.play(3, p1);
-    table.play(1, p2);
-    System.out.println(table);
-
-  }
-
   public static void main(String[] args){
+    validaWinDiagonalDireitaUp();
+    validaWinDiagonalEquerdaUp();
+    validaWinHorizontal();
+  }
+
+  public static void validaWinDiagonalDireitaUp(){
     var table = new Table();
 
     PlayerEntity p1 = new PlayerEntity("p1", "o") ;
     PlayerEntity p2 = new PlayerEntity("p2", "x") ;
-    //teste
-    table.play(0, p1);
 
-    System.out.println();
     table.play(0, p1);
     table.play(1, p2);
     table.play(1, p1);
@@ -43,13 +21,55 @@ public class TesteTable {
     table.play(3, p1);
     table.play(3, p2);
     table.play(3, p2);
-    System.out.println(table);
-    var b = table.play(3, p1);
-    System.out.println(b);
+    var win = table.play(3, p1);
+    System.out.println("Teste Diagonal Direita: " + win);
 
 
   }
 
+  public static void validaWinDiagonalEquerdaUp(){
+    var table = new Table();
+
+    PlayerEntity p1 = new PlayerEntity("p1", "o") ;
+    PlayerEntity p2 = new PlayerEntity("p2", "x") ;
+
+
+    table.play(5, p1);
+    table.play(4, p2);
+    table.play(4, p1);
+    table.play(3, p2);
+    table.play(3, p2);
+    table.play(3, p1);
+    table.play(2, p1);
+    table.play(2, p2);
+    table.play(2, p2);
+    var win = table.play(2, p1);
+    System.out.println("Teste Diagonal Esquerda: " + win);
+
+
+  }
+
+  public static void validaWinHorizontal(){
+    var table = new Table();
+
+    PlayerEntity p1 = new PlayerEntity("p1", "o") ;
+    PlayerEntity p2 = new PlayerEntity("p2", "x") ;
+    //teste
+
+    table.play(0, p1);
+    table.play(1, p1);
+    table.play(2, p1);
+    var win = table.play(3, p1);
+
+    table.play(0, p2);
+    table.play(1, p2);
+    table.play(2, p2);
+
+    var winRowUp = table.play(3, p2);
+
+    System.out.println("Teste Horizontal ultima linha: " + win +
+                     "\nTeste Outras Linhas: " + winRowUp);
+  }
 
 }
 

@@ -22,7 +22,7 @@ public class Table {
   }
 
   public Boolean validaPlay(Integer column){
-    var firstRow = matrix.getFirst();
+    var firstRow = matrix.get(0);
     if(column < 0 ){
       return false;
     }
@@ -38,7 +38,7 @@ public class Table {
     String piece = player.gamePiece();
     List<String> beforRow = new ArrayList<>();
 
-    var lastRow = matrix.getLast();
+    var lastRow = matrix.get(5);
 
 
     for (List<String> row : matrix) {
@@ -49,7 +49,7 @@ public class Table {
       }
       if (!row.get(column).equals("_")) {
         beforRow.set(column, piece);
-        return valideteWin(matrix.indexOf(row), column, piece);
+        return valideteWin(matrix.indexOf(beforRow), column, piece);
       }
       beforRow = row;
     }
@@ -65,7 +65,7 @@ public class Table {
     }
   }
 
-  public Boolean validateDiagonalLeftWin(Integer row, Integer column, String piece) {
+  public Boolean validateWinDiagonalLeftUpToRigthDown(Integer row, Integer column, String piece) {
     int countWin = 0;
     for (int left = 1, rigth = 1, up = 1, down = 1, count = 0; count != 3; count++) {
       if (valideteIlegalState(row - up, column - left, piece)) {
@@ -86,7 +86,7 @@ public class Table {
     return false;
   }
 
-  public Boolean validateDiagonalRigthWin(Integer row, Integer column, String piece) {
+  public Boolean validateWinDiagonalRigthUpToLeftDown(Integer row, Integer column, String piece) {
     int countWin = 0;
     for (int left = 1, rigth = 1, up = 1, down = 1, count = 0; count != 3; count++) {
       if (valideteIlegalState(row + down, column - left, piece)) {
@@ -140,7 +140,7 @@ public class Table {
   private Boolean valideteWin(Integer row, Integer column, String piece) {
 
     if (validateHorizontalWin(row, column, piece) || validateVerticalWin(row, column, piece) ||
-            validateDiagonalRigthWin(row, column, piece) || validateDiagonalLeftWin(row, column, piece)) {
+            validateWinDiagonalRigthUpToLeftDown(row, column, piece) || validateWinDiagonalLeftUpToRigthDown(row, column, piece)) {
       return  true;
     }
     return false;
