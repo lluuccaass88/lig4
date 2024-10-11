@@ -39,16 +39,28 @@ public class Jogo {
 
     System.out.println("Digite o nome do jogador 1: ");
     this.name = scanner.next();
+    do{
     System.out.println(this.name + ", escolha a pecaa que voce deseja jogar: ");
     this.gamePiece = scanner.next();
+    }
+    while (!validPiece(this.gamePiece));
     player1 = new PlayerEntity(name, gamePiece);
+
 
     System.out.println("Digite o nome do jogador 2: ");
     this.name = scanner.next();
+    do {
     System.out.println(this.name + ", escolha a peaa que voce deseja jogar: ");
-    this.gamePiece = scanner.next();
+    this.gamePiece = scanner.next();}
+    while (!validPiece(this.gamePiece));
     player2 = new PlayerEntity(name, gamePiece);
 
+  }
+  private boolean validPiece(String piece){
+    if(piece.equals("_")){
+      System.out.println("hahaha, engraçadinho, outra");
+      return false;}
+    return true;
   }
 
   public static void clearScreen() {
@@ -58,9 +70,17 @@ public class Jogo {
 
   public Boolean round(PlayerEntity player) {
     clearScreen();
+
     do {
       System.out.println(player.getName() + " digite a coluna para jogar: ");
-      this.columns = scanner.nextInt();
+      try{
+        this.columns = scanner.nextInt();
+      }catch (Exception e)
+      {
+        System.out.println("Digite um numero valido.");
+        columns = -1;
+        this.scanner = new Scanner(System.in); // Erro muito engraçado se não fizer isso ahahahahah
+      }
     } while (!table.validaPlay(columns));
 
     return table.play(this.columns, player);
