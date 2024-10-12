@@ -40,7 +40,7 @@ public class Jogo {
     System.out.println("Digite o nome do jogador 1: ");
     this.name = scanner.next();
     do{
-    System.out.println(this.name + ", escolha a pecaa que voce deseja jogar: ");
+    System.out.println(this.name + ", escolha a peca que voce deseja jogar: ");
     this.gamePiece = scanner.next();
     }
     while (!validPiece(this.gamePiece));
@@ -50,7 +50,7 @@ public class Jogo {
     System.out.println("Digite o nome do jogador 2: ");
     this.name = scanner.next();
     do {
-    System.out.println(this.name + ", escolha a peaa que voce deseja jogar: ");
+    System.out.println(this.name + ", escolha a peca que voce deseja jogar: ");
     this.gamePiece = scanner.next();}
     while (!validPiece(this.gamePiece));
     player2 = new PlayerEntity(name, gamePiece);
@@ -58,7 +58,7 @@ public class Jogo {
   }
   private boolean validPiece(String piece){
     if(piece.equals("_")){
-      System.out.println("hahaha, engraçadinho, outra");
+      System.out.println("hahaha, engraçadinho, outra -_-");
       return false;}
     return true;
   }
@@ -79,7 +79,7 @@ public class Jogo {
       {
         System.out.println("Digite um numero valido.");
         columns = -1;
-        this.scanner = new Scanner(System.in); // Erro muito engraçado se não fizer isso ahahahahah
+        this.scanner = new Scanner(System.in);
       }
     } while (!table.validaPlay(columns));
 

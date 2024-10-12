@@ -1,57 +1,61 @@
 
 œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(º‚¯8‡ß´Á§2J$0b669214-0f41-4a04-b3a8-2510c4f09f14
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(º‚¯8‡ß´Á§2J$0c6584aa-87c1-4c79-ac98-2e90d2c740b4
 œ
-java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$77d06c6f-b196-4670-8d06-065529161ae0
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$3eaf7b5a-ff13-416b-b998-754f76b1da05
 œ
 java:S2293
-"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$ea91569b-4e40-4376-bb7c-616743b15f2e
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$7e5e6846-4c45-4d54-ab21-cf7150b71f29
 œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$1f89ede9-0ef5-4d28-b8d2-236191c17617
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$064ab9ca-b958-4f96-aa12-ca3e9188d460
 œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$23887701-140d-4840-83a3-27d8999545a1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$517595c6-c1d9-4ce2-a379-977b9fd8fb18
 œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$a7d5427f-5e6a-449c-a3cf-df968ad246d6
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$f3741e8f-69f1-4da1-8051-181a368c0850
 œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$3e72c789-cc90-4340-a75e-04a3bc996367
-Ÿ	java:S127I"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ü’šãøÿÿÿÿ8ˆß´Á§2J$c7ebac08-ceee-4fed-904a-726cd571d74c
-Ÿ	java:S127J"XRefactor the code in order to not assign to this loop counter from within the loop body.(––¦½ùÿÿÿÿ8ˆß´Á§2J$c44215b3-9ef7-4553-8a93-66c66b61d49e
-Ÿ	java:S127N"XRefactor the code in order to not assign to this loop counter from within the loop body.(ä¦Áûÿÿÿÿ8ˆß´Á§2J$397a6771-b379-43ad-940e-bb35fcc018bd
-š	java:S127O"XRefactor the code in order to not assign to this loop counter from within the loop body.(•şå˜8ˆß´Á§2J$53f28265-7a44-4e9b-8749-9bb26b2ea21a
-Ÿ	java:S127^"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ü’šãøÿÿÿÿ8‰ß´Á§2J$0b6322d9-37f7-4cc7-8a03-fbbe901e2083
-š	java:S127_"XRefactor the code in order to not assign to this loop counter from within the loop body.(•şå˜8‰ß´Á§2J$9929e5b1-eaa7-406d-9cbf-fe53e9e9e4cf
-Ÿ	java:S127c"XRefactor the code in order to not assign to this loop counter from within the loop body.(ä¦Áûÿÿÿÿ8‰ß´Á§2J$c8431aaa-c007-4f0b-ad3d-3ee62afa7da7
-Ÿ	java:S127d"XRefactor the code in order to not assign to this loop counter from within the loop body.(––¦½ùÿÿÿÿ8‰ß´Á§2J$4737c1e2-8969-4810-8dd1-beefcab576b5
-Ÿ	java:S127s"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ü’šãøÿÿÿÿ8‰ß´Á§2J$e04dffba-1e4e-4c12-a8c5-1abb986562bf
-Ÿ	java:S127w"XRefactor the code in order to not assign to this loop counter from within the loop body.(ä¦Áûÿÿÿÿ8‰ß´Á§2J$2dd6e399-0a1b-467e-8c1f-b0d696da90ab
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“‹ù8‡ß´Á§2J$9795459c-b8db-4fc7-b19a-419a966de95f
+Ÿ	java:S127L"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ü’šãøÿÿÿÿ8ª‚˜ç§2J$5dcb6562-4657-47e3-a691-4d6f405df146
+Ÿ	java:S127M"XRefactor the code in order to not assign to this loop counter from within the loop body.(––¦½ùÿÿÿÿ8ª‚˜ç§2J$d136f649-800a-49ba-b8bb-4e78d93db217
+Ÿ	java:S127Q"XRefactor the code in order to not assign to this loop counter from within the loop body.(ä¦Áûÿÿÿÿ8ª‚˜ç§2J$191a2ad4-eb8c-4d62-8142-38d9f540bd48
+š	java:S127R"XRefactor the code in order to not assign to this loop counter from within the loop body.(•şå˜8ª‚˜ç§2J$976928bc-9323-4366-8c77-d7e7d9cb7432
+Ÿ	java:S127a"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ü’šãøÿÿÿÿ8ª‚˜ç§2J$5e92fa40-4bca-4f87-a945-9c3754bdfedb
+š	java:S127b"XRefactor the code in order to not assign to this loop counter from within the loop body.(•şå˜8«‚˜ç§2J$e9c17c75-ba40-489f-a1a6-71f15108e2f7
+Ÿ	java:S127f"XRefactor the code in order to not assign to this loop counter from within the loop body.(ä¦Áûÿÿÿÿ8«‚˜ç§2J$c3c90c4f-fe49-430b-b79c-7da4a9596864
+Ÿ	java:S127g"XRefactor the code in order to not assign to this loop counter from within the loop body.(––¦½ùÿÿÿÿ8«‚˜ç§2J$1dae6e80-8f8e-4852-bd88-b78875eee77e
+Ÿ	java:S127v"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ü’šãøÿÿÿÿ8«‚˜ç§2J$65edc304-a93f-46a3-8870-e72fbd969b72
+Ÿ	java:S127z"XRefactor the code in order to not assign to this loop counter from within the loop body.(ä¦Áûÿÿÿÿ8«‚˜ç§2J$974ad20c-e4ac-45db-b93d-73a199da41d9
 p
-java:S5411G"(Use a primitive boolean expression here.(¿÷ıŒúÿÿÿÿ8‹ß´Á§2J$065128e2-edea-4eb4-bdbb-d23c0cbef78d
+java:S5411J"(Use a primitive boolean expression here.(¿÷ıŒúÿÿÿÿ8¯‚˜ç§2J$b843b12f-427d-478c-8372-362f5742ea22
 k
-java:S5411L"(Use a primitive boolean expression here.(Äòºò8‹ß´Á§2J$41839ba9-0262-477b-9f24-9e7e0d96562c
+java:S5411O"(Use a primitive boolean expression here.(Äòºò8¯‚˜ç§2J$00629230-a752-49e8-8463-d2b576d586ee
 p
-java:S5411\"(Use a primitive boolean expression here.(ËîéÍüÿÿÿÿ8‹ß´Á§2J$42710e16-e5da-4541-9da7-b9594eca6b7b
+java:S5411_"(Use a primitive boolean expression here.(ËîéÍüÿÿÿÿ8¯‚˜ç§2J$74ea9ecd-1ad3-4356-a108-44b4e4c63f8d
 j
-java:S5411a"(Use a primitive boolean expression here.(¦£Ó/8‹ß´Á§2J$a3198e0b-ba53-476d-904f-adb4562780a9
+java:S5411d"(Use a primitive boolean expression here.(¦£Ó/8¯‚˜ç§2J$fb638d0c-a576-41b5-ad56-423e7b33e916
 p
-java:S5411q"(Use a primitive boolean expression here.(¿•ïıÿÿÿÿ8‹ß´Á§2J$834881ed-0d06-4bc2-b925-97b02ebd0c1b
+java:S5411t"(Use a primitive boolean expression here.(¿•ïıÿÿÿÿ8¯‚˜ç§2J$7878110d-b8f7-4590-9b6a-1b8d69bc7e55
 k
-java:S5411u"(Use a primitive boolean expression here.(éÔ“ƒ8‹ß´Á§2J$daf8b30c-4727-499d-9c37-213d61473d11
+java:S5411x"(Use a primitive boolean expression here.(éÔ“ƒ8¯‚˜ç§2J$c451d6e1-fb85-400f-8f41-2439bfb73722
 l
-java:S5411„"(Use a primitive boolean expression here.(Ï‹—ä8‹ß´Á§2J$e97f26c5-9ec5-4d5a-bf47-4909b774198b
-q
-java:S5411"(Use a primitive boolean expression here.(ºˆî”ÿÿÿÿÿ8‹ß´Á§2J$13e6019a-79b2-48a4-868d-ee771d331a8e
+java:S5411‡"(Use a primitive boolean expression here.(Ï‹—ä8¯‚˜ç§2J$bf4d433f-6a92-49b3-a40e-e0a1db279320
+l
+java:S5411’"(Use a primitive boolean expression here.(ß€’­8‹ß´Á§2J$6fbc9f6f-1d5c-43f4-952f-bfd1f9653ab7
 ]
-java:S1220""Move this file to a named package.8Œß´Á§2J$5ddd5b2e-7511-47c2-a740-9e0d7dcc5f06
+java:S1220""Move this file to a named package.8Œß´Á§2J$22a1d568-bb2f-48ee-a422-4201eb0d29d3
+l	java:S106"+Replace this use of System.out by a logger.(´Ì‚^8’ú´Á§2J$8ac94397-d7cb-4632-addf-a2daf0c8619e
+m	java:S106"+Replace this use of System.out by a logger.(ı±û­8ıãõğ§2J$d3d65a06-9393-4912-a6f7-f2f535f2627a
+„
+java:S1126""AReplace this if-then-else statement by a single return statement.(œÂëÁ8­ƒ˜ç§2J$3cd83976-caf4-409a-91dd-94ac84bbffe2
 p
-java:S24479"-Null is returned but a "Boolean" is expected.(¥¹ï8Úß´Á§2J$3bdf4d2e-4f8e-433b-8b6f-7d09f1d431e8
+java:S2447<"-Null is returned but a "Boolean" is expected.(¥¹ï8£ƒ˜ç§2J$084fe438-6af7-4af2-b44f-88cfcfee2f78
 ‰
-java:S1126S"AReplace this if-then-else statement by a single return statement.(ş™Êüÿÿÿÿ8ëß´Á§2J$ce5634ce-a37c-4d9d-b40e-650806cefb3f
-c
-java:S1126h"AReplace this if-then-else statement by a single return statement.(ş™Êüÿÿÿÿ8øù´Á§2
-c
-java:S1126{"AReplace this if-then-else statement by a single return statement.(ş™Êüÿÿÿÿ8üù´Á§2
-d
-java:S1126"AReplace this if-then-else statement by a single return statement.(ëëÂ‚ùÿÿÿÿ8ú´Á§2
-s	java:S106"+Replace this use of System.out by a logger.(à• üıÿÿÿÿ8òß´Á§2J$0c91ec80-3cea-4de4-8d2e-0b833bebab77
-H	java:S106"+Replace this use of System.out by a logger.(–àâŠ8ú´Á§2
-M	java:S106¡"+Replace this use of System.out by a logger.(¾Œ¸ıÿÿÿÿ8’ú´Á§2
+java:S1126V"AReplace this if-then-else statement by a single return statement.(ş™Êüÿÿÿÿ8°ƒ˜ç§2J$a7f010c7-0b01-4c2a-82d6-921489b1d952
+‰
+java:S1126k"AReplace this if-then-else statement by a single return statement.(ş™Êüÿÿÿÿ8²ƒ˜ç§2J$9a4bcf60-e6c4-4282-861c-4815303c7daa
+‰
+java:S1126~"AReplace this if-then-else statement by a single return statement.(ş™Êüÿÿÿÿ8êÆ÷ğ§2J$2dc9f01b-1cc0-4d10-b49b-9ab2d7cc04fb
+Š
+java:S1126‘"AReplace this if-then-else statement by a single return statement.(ëëÂ‚ùÿÿÿÿ8øä¼ñ§2J$eba10985-8b62-4470-b9fc-47a2a8b62bd1
+s	java:S106 "+Replace this use of System.out by a logger.(à• üıÿÿÿÿ8±‰öğ§2J$ca51d4d7-8d2f-4c52-87c9-a49935539c40
+n	java:S106¡"+Replace this use of System.out by a logger.(–àâŠ8Îèºñ§2J$494dfa4f-d45c-435f-9477-01885ecae803
+s	java:S106¤"+Replace this use of System.out by a logger.(¾Œ¸ıÿÿÿÿ8¹Œ»ñ§2J$9c0757d0-dff6-4eda-acd9-acbd0d834c4c

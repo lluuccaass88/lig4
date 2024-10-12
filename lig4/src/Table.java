@@ -21,19 +21,22 @@ public class Table {
     }
   }
 
-  public Boolean validaPlay(Integer column){
+  public Boolean validaPlay(Integer column) {
     var firstRow = matrix.get(0);
-    if(column < 0 ){
+    if (column < 0) {
+      System.out.println("Digite um numero positivo");
       return false;
     }
-    if(column > firstRow.size() -1 ) {
+    if (column > firstRow.size() - 1) {
+      System.out.println("Esta coluna já esta cheia");
       return false;
     }
-    if(!firstRow.get(column).equals("_")){
-      return Boolean.FALSE;
+    if (!firstRow.get(column).equals("_")) {
+      return false;
     }
     return true;
   }
+
   public Boolean play(Integer column, PlayerEntity player) {
     String piece = player.gamePiece();
     List<String> beforRow = new ArrayList<>();
@@ -43,7 +46,7 @@ public class Table {
 
     for (List<String> row : matrix) {
 
-      if (row == lastRow && row.get(column).equals("_")) { //valida se é a ultima linha e se a coluna esta vazia
+      if (row == lastRow && row.get(column).equals("_")) {
         row.set(column, piece);
         return valideteWin(matrix.indexOf(row), column, piece);
       }
@@ -141,7 +144,7 @@ public class Table {
 
     if (validateHorizontalWin(row, column, piece) || validateVerticalWin(row, column, piece) ||
             validateWinDiagonalRigthUpToLeftDown(row, column, piece) || validateWinDiagonalLeftUpToRigthDown(row, column, piece)) {
-      return  true;
+      return true;
     }
     return false;
   }
