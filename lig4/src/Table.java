@@ -22,16 +22,17 @@ public class Table {
   }
 
   public Boolean validaPlay(Integer column) {
-    var firstRow = matrix.get(0);
+    List<String> firstRow = matrix.get(0);
     if (column < 0) {
       System.out.println("Digite um numero positivo");
       return false;
     }
     if (column > firstRow.size() - 1) {
-      System.out.println("Esta coluna já esta cheia");
+      System.out.println("Coluna existente");
       return false;
     }
     if (!firstRow.get(column).equals("_")) {
+      System.out.println("Esta coluna já esta cheia");
       return false;
     }
     return true;
@@ -41,7 +42,7 @@ public class Table {
     String piece = player.gamePiece();
     List<String> beforRow = new ArrayList<>();
 
-    var lastRow = matrix.get(5);
+    List<String> lastRow = matrix.get(5);
 
 
     for (List<String> row : matrix) {

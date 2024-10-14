@@ -13,3 +13,5 @@ B
 lig4/src/Main.java,8\2\82969011bc60cf43022e70ea89fe6394ff3c9683
 ?
 lig4/.gitignore,c\4\c4881146a72309086e650c25bc1557bdcab01554
+w
+G.idea/sonarlint/issuestore/4/a/4a45ac2a841fe9bc5aca93ed3d889e17c1ef7945,c\7\c72d64901ba6d4ec573976b5186aefc6da1d8c21
