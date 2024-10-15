@@ -1,0 +1,26 @@
+
+k
+java:S5411"(Use a primitive boolean expression here.(²àå¸8©ñ§2J$ddabebdf-daba-4f52-aa2c-6122c3dbf870
+p
+java:S5411T"(Use a primitive boolean expression here.(±ğ­ùÿÿÿÿ8¥¦À§2J$025696f7-2aec-4872-8474-9b5378163030
+]
+java:S1220""Move this file to a named package.8õô“À§2J$470501bf-15b4-43a8-8207-bb775c4c7576
+
+java:S1450"VRemove the "columns" field and declare it as a local variable in the relevant methods.(Àúñ«úÿÿÿÿ8şô“À§2J$6dc90312-1c0a-4b82-a2ac-22167400cc8a
+ 
+java:S1450"XRemove the "gamePiece" field and declare it as a local variable in the relevant methods.(¬–äÿÿÿÿÿ8şô“À§2J$cdcdf536-1019-4942-a69c-8cecb17638b7
+–
+java:S1450"SRemove the "name" field and declare it as a local variable in the relevant methods.(Ë¥¼8şô“À§2J$655887e6-d74d-4b22-8c83-b6924f3825fc
+m	java:S106"+Replace this use of System.out by a logger.(Óı¼8Òñ§2J$20ef5e96-ed44-4066-b0bd-711d6bd920cb
+m	java:S106!"+Replace this use of System.out by a logger.(Óı¼8Ôñ§2J$46690ad3-6f59-4677-be5b-aaaff598646a
+r	java:S106""+Replace this use of System.out by a logger.(¿’ˆûÿÿÿÿ8Öñ§2J$182a4187-2e1d-417c-9129-2c7fdc9db30e
+m	java:S106&"+Replace this use of System.out by a logger.(Ñï„•8Øñ§2J$28c3c728-e037-4bf7-940b-9ef29fa70ae0
+r	java:S106("+Replace this use of System.out by a logger.(æåâ¿øÿÿÿÿ8Úñ§2J$83bed4ea-0385-4820-86c8-6d29a88b2b7c
+m	java:S106+"+Replace this use of System.out by a logger.(Ïœßà8Üñ§2J$3caf4f16-f439-4297-8fe1-cdf31a79b8a0
+r	java:S1062"+Replace this use of System.out by a logger.(£–¥èûÿÿÿÿ8Şñ§2J$dfb9cf99-85f7-4daf-a174-e7613b344193
+m	java:S1065"+Replace this use of System.out by a logger.(Ïœßà8ßñ§2J$01ed91d6-b111-42e0-a9a3-dc87dd5996d7
+r	java:S106="+Replace this use of System.out by a logger.(úĞèÇûÿÿÿÿ8âñ§2J$76927252-e4b7-4a74-94bb-402e55b6b5d0
+m	java:S106C"+Replace this use of System.out by a logger.(Îœò—8ãñ§2J$ea8ef4a6-55a6-419c-9ac2-826057c93840
+m	java:S106D"+Replace this use of System.out by a logger.(ÚÂâ8äñ§2J$42d694b2-7391-422d-9727-3b2c9c2a417b
+m	java:S106K"+Replace this use of System.out by a logger.(ûÄéâ8æñ§2J$255b23ee-80e6-4d07-9a27-41a9a2d133f7
+m	java:S106P"+Replace this use of System.out by a logger.(ù¸ˆ¤8éñ§2J$5a695b64-fc9d-46d8-b24a-eaab55c9a982
